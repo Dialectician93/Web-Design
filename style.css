@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color: #9f1672;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35424A;
+    color: white;
+    border-bottom:1px solid #9f1672;
+}
+.div1 a{
+    text-decoration: none;
+    color: white;
+}
+.div1 a:hover{
+    color: #9f1672;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    text-align: center;
+    background-image: url("https://cdn-employer-wp.arc.dev/wp-content/uploads/2022/04/good-software-developer-1128x635.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    border-top:  2px solid #9f1672;
+
+}
+.div3{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: #35424A;
+    color: white;
+    gap:3px ;
+}
+.main{
+    display: flex;
+    text-align: center;
+    padding: 1rem 0;
+}
+.main p{
+    font-size: 15px;
+    padding: 8px;
+}
+footer{
+    text-align: center;
+    background-color: #35424A;
+    color: white;
+    padding: 1rem;
+    font-size: 15px;
+}
+.btn{
+    background-color: #ff6303;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+input{
+    padding: 3px;
+}
+.genel{
+    display: flex;
+    padding:1.5rem;
+    gap: 2rem;
+    height: 400px;
+}
+.about{
+    font-size: 10px;
+}
+.p2{
+    background-color: #35424A;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}
+.what{
+    background-color: #35424A;
+    color: white;
+    font-size: 10px;
+    padding: 1.5rem;
+    width: 800px;
+    height: 150px;
+}
+.servicepage{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding-left: 1.5rem;
+    font-size: 10px;
+    line-height: 2rem;
+}
+.service1{
+    background-color: rgba(205, 205, 205, 0.455);
+    padding: 1rem;
+    width: 800px;
+}
+.service2{
+    background-color: rgba(205, 205, 205, 0.455);
+    padding: 1rem;
+    width: 800px;}
+.service3{
+    background-color: rgba(205, 205, 205, 0.455);
+    padding: 1rem;
+    width: 800px;
+    margin-bottom: 1rem;
+}
+.quote{
+    padding:  1rem;
+    background-color: #35424A ;
+    color: white;
+    font-size: 13px;
+    margin-top: 2.3rem;
+    height: 230px;
+}
+.quote button{
+    background-color: #ff6303;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: none;
+
+}
+.last{
+    display: flex;
+    gap: 5rem
+}
+textarea{
+    padding: 5px;
+}
